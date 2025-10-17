@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF--8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuad Ahmed | Creative Manipulation & VFX Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+      /* FuadBot Theme Variables */
+      .fuad-bot-container {
+        --text-primary: #ffffff;
+        --text-secondary: #94a3b8; /* slate-400 */
+        --border-color: #334155; /* slate-700 */
+        --header-border: rgba(51, 65, 85, 0.5); /* slate-700/50 */
+        --profile-name-hover: #E34234;
+        --btn-bg: rgba(71, 85, 105, 0.8); /* slate-600/80 */
+        --btn-text: #f1f5f9; /* slate-100 */
+        --btn-bg-hover: #E34234;
+        --btn-text-hover: #ffffff;
+        --message-model-bg: #1e293b; /* slate-800 */
+        --message-model-text: #e2e8f0; /* slate-200 */
+        --input-bg: #1e293b; /* slate-800 */
+        --input-border: #334155; /* slate-700 */
+        --input-focus-border: #E34234;
+        --input-placeholder: #64748b; /* slate-500 */
+        --input-text: #ffffff;
+        --settings-label-text: #94a3b8; /* slate-400 */
+        --settings-value-text: #ffffff;
+        --settings-btn-bg: #1e293b; /* slate-800 */
+        --settings-btn-text: #94a3b8; /* slate-400 */
+        --settings-btn-bg-active: #E34234;
+        --settings-btn-text-active: #ffffff;
+      }
+      .fuad-bot-container[data-theme="light"] {
+        --text-primary: #0f172a; /* slate-900 */
+        --text-secondary: #475569; /* slate-600 */
+        --border-color: #cbd5e1; /* slate-300 */
+        --header-border: rgba(203, 213, 225, 0.5); /* slate-300/50 */
+        --profile-name-hover: #E34234;
+        --btn-bg: #e2e8f0; /* slate-200 */
+        --btn-text: #475569; /* slate-600 */
+        --btn-bg-hover: #E34234;
+        --btn-text-hover: #ffffff;
+        --message-model-bg: #e2e8f0; /* slate-200 */
+        --message-model-text: #1e293b; /* slate-800 */
+        --input-bg: #e2e8f0; /* slate-200 */
+        --input-border: #cbd5e1; /* slate-300 */
+        --input-focus-border: #E34234;
+        --input-placeholder: #94a3b8; /* slate-400 */
+        --input-text: #1e293b; /* slate-800 */
+        --settings-label-text: #475569; /* slate-600 */
+        --settings-value-text: #0f172a; /* slate-900 */
+        --settings-btn-bg: #e2e8f0; /* slate-200 */
+        --settings-btn-text: #475569; /* slate-600 */
+        --settings-btn-bg-active: #E34234;
+        --settings-btn-text-active: #ffffff;
+      }
+      /* Custom slider track */
+      .custom-slider::-webkit-slider-runnable-track {
+        background-color: var(--input-bg);
+        border: 1px solid var(--input-border);
+        border-radius: 9999px;
+        height: 8px;
+      }
+      /* Custom slider thumb */
+      .custom-slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        border-radius: 9999px;
+        background-color: #E34234;
+        margin-top: -5px; /* (track height - thumb height) / 2 */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.22",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
